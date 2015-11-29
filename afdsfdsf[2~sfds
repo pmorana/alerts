@@ -1,0 +1,41 @@
+[33mcommit e26544f112eaac730031e1a5a91894bc26057a93[m
+Author: pmorana <pmorana@gmail.com>
+Date:   Sat Nov 28 20:40:21 2015 -0600
+
+    Update app name
+
+[33mcommit 528c763516d76a63d98627cfe82a44bc14390fd4[m
+Author: pmorana <pmorana@gmail.com>
+Date:   Sat Nov 28 20:30:39 2015 -0600
+
+    Add basic validation for form
+
+[33mcommit d87c482fad1f4830aaf1b7502c5a89d558677aed[m
+Author: pmorana <pmorana@gmail.com>
+Date:   Sat Nov 28 19:41:13 2015 -0600
+
+    create alert listing, new alert page
+
+[33mcommit 1dc0feb6d62ba063f040881c54d43926ced3a458[m
+Author: pmorana <pmorana@gmail.com>
+Date:   Sat Nov 28 18:24:23 2015 -0600
+
+    Create alerts controller and view
+
+[33mcommit 60d15e2cd73a04031eff9d4e9f764e498e4a95a1[m
+Author: pmorana <pmorana@gmail.com>
+Date:   Wed Nov 25 16:16:11 2015 -0600
+
+    add gems
+
+[33mcommit afd06b6ce9ef50b1b7d3a349154a7fd870891ae5[m
+Author: pmorana <pmorana@gmail.com>
+Date:   Wed Nov 25 15:52:03 2015 -0600
+
+    update README
+
+[33mcommit c0d5d6fdd0d78fa43192d98e4387d3986f27180d[m
+Author: pmorana <pmorana@gmail.com>
+Date:   Wed Nov 25 15:48:50 2015 -0600
+
+    Initial commit, project blank
