@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
  
- resources :alerts
+ resources :events
 
   get 'welcome/index'
+  get 'events' => 'events#index'
 
    root 'welcome#index'
 
