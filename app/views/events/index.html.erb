@@ -13,9 +13,13 @@
 		<td><%= e.info %></td>
 		<td><%= link_to 'Show', event_path(e) %></td>
 		<td><%= link_to 'Edit', edit_event_path(e) %></td>
+		<td><%=	link_to 'Destroy', event_path(e), method: :delete, data: { confirm: 'Are you sure?' } %></td>
 	</tr>
 	<%end%>
-	<br>
+
+	<tr>
+		<td><p></p></td>
+	</tr>
 	<tr>	
 		<td><%= link_to 'Create New Event', new_event_path %></td>
 		<td><%= link_to 'Home', controller: 'welcome' %></td>
