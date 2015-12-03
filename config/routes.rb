@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
   get 'events' => 'events#index'
+  patch 'events/:id/edit' => 'events#update'
 
    root 'welcome#index'
 

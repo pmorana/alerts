@@ -1,7 +1,7 @@
-<h1>New Event</h1>
-<p>This will be the place to create a new Event</p>
+<h1>Edit Event</h1>
+<p>This will be the place to edit an existing Event</p>
 
-<%= form_for :event, url: events_path do |f| %>
+<%= form_for :event, method: :patch do |f| %>
 	<% if @event.errors.any? %>
 	<div id="error_explanation">
 		<h2>

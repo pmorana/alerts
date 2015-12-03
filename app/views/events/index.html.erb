@@ -4,12 +4,15 @@
 	<tr>
 		<th>Title</th>
 		<th>Info</th>
+		<th colspan="2"></th>
 	</tr>
 
 	<%@events.each do |e| %>
 	<tr>
 		<td><%= e.title %></td>
 		<td><%= e.info %></td>
+		<td><%= link_to 'Show', event_path(e) %></td>
+		<td><%= link_to 'Edit', edit_event_path(e) %></td>
 	</tr>
 	<%end%>
 	<br>
