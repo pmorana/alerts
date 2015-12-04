@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
  
- resources :events
+ resources :events do
+ 	resources :chats
+ end
 
   get 'welcome/index'
   get 'events' => 'events#index'
