@@ -12,32 +12,9 @@
 </p>
 
 <h2>Comments (hacky chat)</h2>
-<% @event.chats.each do |chat| %>
-	<p>
-		<strong>User:</strong>
-		<%= chat.user %>
-	</p>
-
-	<p>
-		<strong>Says:</strong>
-		<%= chat.body %>
-	</p>
-	<% end %>
+<%= render @event.chats %>
 
 <h2>Add a comment: (chat faked)</h2>
-<%= form_for([@event, @event.chats.build]) do |f| %>
-	<p>
-		<%= f.label :user %><br>
-		<%= f.text_field :user %>
-	</p>
-	<p>
-		<%= f.label :body %><br>
-		<%= f.text_area :body %><br>
-	</p>
-	<p>
-		<%= f.submit %>
-	</p>
-	<% end %>
-
+<%= render 'chats/form' %>
 
 <%= link_to 'Back', events_path %>
