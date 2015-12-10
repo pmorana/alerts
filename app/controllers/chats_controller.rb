@@ -1,5 +1,5 @@
 class ChatsController < ApplicationController
-	http_basic_authenticate_with name: "Paul", password: "password", only: :destroy
+	#http_basic_authenticate_with name: "Paul", password: "password", only: :destroy
 
 	def create
 		@event = Event.find(params[:event_id])
