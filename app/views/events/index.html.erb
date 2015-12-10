@@ -13,7 +13,7 @@
 	<tr>
 		<td><%= e.title %></td>
 		<td><%= e.info %></td>
-		<td><%= e.event_date_time %></td>
+		<td><%= e.event_start %></td>
 		<td><%= link_to 'Show', event_path(e) %></td>
 		<td><%= link_to 'Edit', edit_event_path(e) %></td>
 		<td><%=	link_to 'Destroy', event_path(e), method: :delete, data: { confirm: 'Are you sure?' } %></td>
