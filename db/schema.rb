@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151204050821) do
+ActiveRecord::Schema.define(version: 20151210175540) do
 
   create_table "chats", force: :cascade do |t|
     t.string   "user"
@@ -26,8 +26,9 @@ ActiveRecord::Schema.define(version: 20151204050821) do
   create_table "events", force: :cascade do |t|
     t.string   "title"
     t.text     "info"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.datetime "event_date_time"
   end
 
 end

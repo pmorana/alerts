@@ -4,13 +4,16 @@
 	<tr>
 		<th>Title</th>
 		<th>Info</th>
-		<th colspan="2"></th>
+		<th>When</th>
+		<th>Options</th>
+		<th colspan="4"></th>
 	</tr>
 
 	<%@events.each do |e| %>
 	<tr>
 		<td><%= e.title %></td>
 		<td><%= e.info %></td>
+		<td><%= e.event_date_time %></td>
 		<td><%= link_to 'Show', event_path(e) %></td>
 		<td><%= link_to 'Edit', edit_event_path(e) %></td>
 		<td><%=	link_to 'Destroy', event_path(e), method: :delete, data: { confirm: 'Are you sure?' } %></td>
